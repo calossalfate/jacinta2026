@@ -26,8 +26,8 @@ export const PARTY_HIGHLIGHTS = [
   { title: "Premios", body: "Sorpresas para quienes se animen a participar." },
 ] as const;
 
-/** Mismo número familiar que Martina; cambia aquí si quieres otro. */
-export const WHATSAPP_NUMBER = "56937012354";
+/** WhatsApp confirmación (no mostrar el número en la UI). Chile: 56 + 9 + 8 dígitos. */
+export const WHATSAPP_NUMBER = "56951769102";
 
 export const TAGLINE = "Juguetona, risueña y muy top — ¡cumplo 6!";
 
