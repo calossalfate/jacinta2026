@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.jacinta-root {
+  --font-jacinta-display: "Fredoka", "Nunito", system-ui, sans-serif;
+  font-family: "Nunito", system-ui, sans-serif;
+}
+
+.jacinta-display {
+  font-family: var(--font-jacinta-display);
+}
